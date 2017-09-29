@@ -46,15 +46,12 @@ colorscheme vividchalk
 
 map <leader>T  mm\|:%s/\s\s*$//g<cr>\|`m
 
-nmap <silent> \[ :NERDTreeToggle<CR>
-nmap <silent> \t :CtrlP<CR>
+nmap <silent> \[ :NERDTreeToggle
+nmap <silent> \t :CtrlP
 let NERDTreeIgnore=['\.rbc$', '\~$']
 
 nnoremap <C-L> :nohls<CR><C-L>
 inoremap <C-L> <C-O>:nohls<CR>
-
-c>:update<CR>
-c>:quit<CR>
 
 if has("gui_running")
     set t_Co=256
