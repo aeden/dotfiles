@@ -37,21 +37,28 @@ set ttymouse=xterm2
 
 set hidden
 
-set listchars=tab:-•,trail:•,nbsp:•
-set list!
+"set listchars=tab:-•,trail:•,nbsp:•
+"set list!
+
+set clipboard+=unnamed
 
 let g:rustfmt_autosave = 1
 
 colorscheme vividchalk
 
-map <leader>T  mm\|:%s/\s\s*$//g<cr>\|`m
+map <leader>T  mm\|:%s/\s\s*$//g<cr>
 
-nmap <silent> \[ :NERDTreeToggle
-nmap <silent> \t :CtrlP
+nmap <silent> \[ :NERDTreeToggle<cr>
+nmap <silent> \t :CtrlP<cr>
 let NERDTreeIgnore=['\.rbc$', '\~$']
 
 nnoremap <C-L> :nohls<CR><C-L>
 inoremap <C-L> <C-O>:nohls<CR>
+
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
 
 if has("gui_running")
     set t_Co=256
