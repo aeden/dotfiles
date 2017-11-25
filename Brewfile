@@ -8,6 +8,10 @@
 brew 'ant'
 brew 'cmake'
 brew 'direnv'
+#brew 'docker'
+#brew 'docker-compose'
+#brew 'docker-machine'
+#brew 'docker-machine-driver-xhyve'
 brew 'elixir'
 brew 'git'
 brew 'go'
@@ -37,6 +41,7 @@ cask 'skype'
 cask 'slack-beta'
 cask 'vlc'
 cask 'vyprvpn'
+cask 'docker'
 
 mas '1Password', id: 443987910
 mas 'Double Shot', id: 1076145960
