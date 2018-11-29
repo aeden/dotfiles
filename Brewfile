@@ -32,6 +32,7 @@ brew 'whois'
 brew 'yarn'
 
 cask 'ableton-live-suite'
+cask 'colloquy'
 cask 'dropbox'
 cask 'github'
 cask 'google-chrome'
