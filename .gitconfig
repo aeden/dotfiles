@@ -4,7 +4,7 @@
 	name = Anthony Eden
 	email = me@anthonyeden.com
 [core]
-	excludesfile = /Users/aeden/.gitignore_global
+	excludesfile = /Users/anthonyeden/.gitignore_global
 [alias]
 	co = checkout
 [filter "lfs"]
