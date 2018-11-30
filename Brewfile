@@ -3,6 +3,7 @@
 # /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # brew tap homebrew/bundle
 # brew tap caskroom/versions
+# brew tap heroku/brew
 # brew bundle
 
 
@@ -17,6 +18,7 @@ cask 'java'
 # Build tools and environments
 brew 'ant'
 brew 'cmake'
+brew 'heroku/brew/heroku'
 brew 'jenv'
 brew 'mas'
 brew 'npm'
