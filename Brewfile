@@ -39,6 +39,7 @@ brew 'opencv@2'
 brew 'postgresql'
 brew 'redis'
 brew 'vim'
+cask 'visual-studio-code'
 
 # Applications
 cask 'ableton-live-suite'
