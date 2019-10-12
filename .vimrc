@@ -1,5 +1,9 @@
 call plug#begin('~/.vim/plugged')
 
+Plug 'sovetnik/vim-hanami'
+
+call plug#end()
+
 let mapleader = ","
 
 set nocompatible
@@ -30,8 +34,6 @@ set runtimepath^=~/.vim/bundle/ag
 
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
-
-Plug 'sovetnik/vim-hanami'
 
 syntax on
 filetype plugin indent on
