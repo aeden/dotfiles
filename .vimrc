@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'sovetnik/vim-hanami'
+Plug 'dense-analysis/ale'
 
 call plug#end()
 
@@ -65,6 +66,9 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+
+let b:ale_fixers = ['rubocop']
+let g:ale_fix_on_save = 1
 
 if has("gui_running")
     set t_Co=256
