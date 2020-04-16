@@ -1,16 +1,5 @@
-# This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
 	name = Anthony Eden
-	email = me@anthonyeden.com
-[core]
-	excludesfile = /Users/anthonyeden/.gitignore_global
+	email = anthonyeden@gmail.com
 [alias]
 	co = checkout
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-[merge]
-	tool = opendiff

@@ -69,6 +69,10 @@ noremap <Right> <NOP>
 
 let b:ale_fixers = ['rubocop']
 let g:ale_fix_on_save = 1
+let g:ale_linters = {
+\   'erlang': ['syntaxerl'],
+\}
+let g:ale_erlang_erlc_options = '-I include -I _build/default/lib -I _build/default/lib/*'
 
 if has("gui_running")
     set t_Co=256

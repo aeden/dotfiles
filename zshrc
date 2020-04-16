@@ -1,3 +1,7 @@
+autoload -Uz compinit && compinit
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
+fpath=(~/.zsh $fpath)
+
 alias gst="git status"
 alias foreman="forego"
 alias be="bundle exec"
