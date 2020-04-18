@@ -23,7 +23,6 @@ brew 'whois'
 
 # General command-line software and libraries
 brew 'direnv'
-brew 'forego'
 brew 'git'
 brew 'git-lfs'
 brew 'bash-completion'
@@ -31,13 +30,12 @@ brew 'libsodium'
 brew 'postgresql'
 brew 'redis'
 brew 'vim'
+brew 'overmind'
 
 # Applications
-cask 'colloquy'
 # cask 'dropbox' (broken as of OS X 10.15)
 cask 'github'
 cask 'google-chrome'
-cask 'iterm2'
 cask 'keybase'
 cask 'sizeup'
 cask 'slack'
@@ -47,7 +45,7 @@ cask 'vyprvpn'
 cask 'docker'
 
 # App Store applications
-mas '1Password', id: 443987910
+# mas '1Password', id: 443987910
 mas 'Double Shot', id: 1076145960
 mas 'Monosnap', id: 540348655
 mas 'Pixelmator', id: 407963104
